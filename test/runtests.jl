@@ -2,5 +2,5 @@ using TestPackage
 using Test
 
 @testset "TestPackage.jl" begin
-    # Write your tests here.
+    @test 8 == testFunction(4)
 end
